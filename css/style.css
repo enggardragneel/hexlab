@@ -1,0 +1,105 @@
+body{ 
+	background-image: url(http://68.media.tumblr.com/tumblr_m8vyz6ZnG31re2olto1_1280.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #EEE;
+	background-attachment: fixed;
+}
+
+main{
+	padding: 10px;
+	width: 600px;
+	margin: 70px auto; /** Ngatur jarak **/
+	background: white;
+}
+
+.konten{
+}
+
+#judul{
+	color: red;
+}
+
+#warn{
+	background-color: red;
+}
+
+input {
+  display: none;
+  visibility: hidden;
+}
+
+label {
+  display: block;
+  padding: 0.5em;
+  text-align: center;
+  border-bottom: 1px solid #CCC;
+  color: #666;
+}
+label:hover {
+  color: #000;
+}
+label::before {
+  font-family: Consolas, monaco, monospace;
+  font-weight: bold;
+  font-size: 15px;
+  content: "+";
+  vertical-align: text-top;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+  background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
+}
+
+#expand {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  color: #FFF;
+  background-image: url(http://i.imgur.com/QsOsGGg.jpg);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section {
+  padding: 0 20px;
+  color: 
+}
+
+#toggle:checked ~ #expand {
+  height: 250px;
+}
+
+#toggle:checked ~ label::before {
+  content: "-";
+}
+
+#msg{
+	color: black;
+	font-size: 20px;
+	font-family: cursive;
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	color: white;
+}
+
+a:active{
+	color: white;
+}
+
+a:visited{
+	color: white;
+}
+
+
+.chall{
+	margin-top: 4px;
+}
